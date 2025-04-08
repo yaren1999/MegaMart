@@ -1,0 +1,43 @@
+[
+    {
+        "categoryId": 1,
+        "categoryName": "Telefon"
+        
+    },
+    {
+        "categoryId": 2,
+        "categoryName": "Beyaz eşya"
+    
+        
+    },
+    {
+        "categoryId": 3,
+        "categoryName": "Laptop"
+        
+        
+    },
+    {
+        "categoryId": 4,
+        "categoryName": "Saat"
+        
+       
+    },
+    {
+        "categoryId": 5,
+        "categoryName": "Meyve"
+        
+        
+    },
+    {
+        "categoryId": 6,
+        "categoryName": "Ev eşyaları"
+        
+    
+        
+    },
+    {
+        "categoryId": 7,
+        "categoryName": "Kozmetik"
+       
+    }
+]

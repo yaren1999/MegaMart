@@ -1,0 +1,380 @@
+[
+  {
+    "productId": 1,
+    "productName": "iPhone 13 Pro",
+    "categoryId": 1,
+    "image": "https://productimages.hepsiburada.net/s/151/375-375/110000106992238.jpg",
+    "price": 9999,
+    "stockAmount": 100,
+    "description": "Apple'ın en yeni amiral gemisi telefonu."
+  },
+  {
+    "productId": 2,
+    "productName": "Samsung Galaxy S21",
+    "categoryId": 1,
+    "image": "https://productimages.hepsiburada.net/s/54/375-375/11185809358898.jpg",
+    "price": 8500,
+    "stockAmount": 80,
+    "description": "Samsung'un güçlü ve şık amiral gemisi akıllı telefonu."
+  },
+  {
+    "productId": 3,
+    "productName": "Xiaomi Mi 11",
+    "categoryId": 1,
+    "image": "https://productimages.hepsiburada.net/s/777/375-375/110000810662704.jpg",
+    "price": 6000,
+    "stockAmount": 150,
+    "description": "Xiaomi'nin en güçlü telefonlarından biri."
+  },
+  {
+    "productId": 4,
+    "productName": "OnePlus 9 Pro",
+    "categoryId": 1,
+    "image": "https://productimages.hepsiburada.net/s/85/375-375/110000028019532.jpg",
+    "price": 9999,
+    "stockAmount": 120,
+    "description": "OnePlus'ın en yüksek kaliteli akıllı telefonu."
+  },
+  {
+    "productId": 5,
+    "productName": "iphone 15",
+    "categoryId": 1,
+    "image": "https://productimages.hepsiburada.net/s/462/375-375/110000498583410.jpg",
+    "price": 8500,
+    "stockAmount": 70,
+    "description": "Google'ın en yeni amiral gemisi akıllı telefonu."
+  },
+  {
+    "productId": 6,
+    "productName": "Huawei P40 Pro",
+    "categoryId": 1,
+    "image": "https://productimages.hepsiburada.net/s/540/375-375/110000599292787.jpg",
+    "price": 9500,
+    "stockAmount": 60,
+    "description": "Huawei'nin yüksek performanslı amiral gemisi telefonu."
+  },
+  {
+    "productId": 7,
+    "productName": "Samsung Buzdolabı",
+    "categoryId": 2,
+    "image": "https://productimages.hepsiburada.net/s/777/300-443/110000767933461.jpg",
+    "price": 7500,
+    "stockAmount": 40,
+    "description": "Yüksek verimli Samsung buzdolabı."
+  },
+  {
+    "productId": 8,
+    "productName": "Bosch Çamaşır Makinesi",
+    "categoryId": 2,
+    "image": "https://productimages.hepsiburada.net/s/402/375-375/110000427945085.jpg",
+    "price": 3500,
+    "stockAmount": 30,
+    "description": "Bosch'un enerji tasarruflu çamaşır makinesi."
+  },
+  {
+    "productId": 9,
+    "productName": "Siemens Bulaşık Makinesi",
+    "categoryId": 2,
+    "image": "https://productimages.hepsiburada.net/s/398/375-375/110000423409065.jpg",
+    "price": 4000,
+    "stockAmount": 50,
+    "description": "Yüksek performanslı Siemens bulaşık makinesi."
+  },
+  {
+    "productId": 10,
+    "productName": "Arçelik Klima",
+    "categoryId": 2,
+    "image": "https://productimages.hepsiburada.net/s/91/375-375/110000033524896.jpg",
+    "price": 5000,
+    "stockAmount": 35,
+    "description": "Arçelik'in sessiz ve verimli klima modeli."
+  },
+  {
+    "productId": 11,
+    "productName": "Vestel Fırın",
+    "categoryId": 2,
+    "image": "https://productimages.hepsiburada.net/s/61/375/110000002538193.jpg/format:webp",
+    "price": 2500,
+    "stockAmount": 25,
+    "description": "Vestel'in teknolojik özelliklere sahip fırın."
+  },
+  {
+    "productId": 12,
+    "productName": "Philips Elektrikli Süpürge",
+    "categoryId": 2,
+    "image": "https://productimages.hepsiburada.net/s/544/300-443/110000603970308.jpg",
+    "price": 2000,
+    "stockAmount": 45,
+    "description": "Philips'in güçlü ve sessiz elektrikli süpürgesi."
+  },
+  {
+    "productId": 13,
+    "productName": "MacBook Pro 16-inch",
+    "categoryId": 3,
+    "image": "https://productimages.hepsiburada.net/s/385/375-375/110000404329775.jpg",
+    "price": 22000,
+    "stockAmount": 40,
+    "description": "Apple'ın en güçlü laptopu."
+  },
+  {
+    "productId": 14,
+    "productName": "Dell XPS 13",
+    "categoryId": 3,
+    "image": "https://productimages.hepsiburada.net/s/777/375/110000659072452.jpg/format:webp",
+    "price": 15000,
+    "stockAmount": 50,
+    "description": "Dell XPS 13'in ince ve güçlü tasarımı."
+  },
+  {
+    "productId": 15,
+    "productName": "HP Spectre x360",
+    "categoryId": 3,
+    "image": "https://productimages.hepsiburada.net/s/777/300-443/110000768462673.jpg",
+    "price": 18000,
+    "stockAmount": 30,
+    "description": "HP Spectre x360'ın şık ve işlevsel tasarımı."
+  },
+  {
+    "productId": 16,
+    "productName": "Lenovo ThinkPad X1",
+    "categoryId": 3,
+    "image": "https://productimages.hepsiburada.net/s/465/375-375/110000501634147.jpg",
+    "price": 16000,
+    "stockAmount": 60,
+    "description": "Lenovo'nun profesyonellere yönelik güçlü laptopu."
+  },
+  {
+    "productId": 17,
+    "productName": "Microsoft Surface Laptop 4",
+    "categoryId": 3,
+    "image": "https://productimages.hepsiburada.net/s/777/300-443/110000745203088.jpg",
+    "price": 17000,
+    "stockAmount": 45,
+    "description": "Microsoft'un yüksek performanslı laptopu."
+  },
+  {
+    "productId": 18,
+    "productName": "Monster Laptop",
+    "categoryId": 3,
+    "image": "https://productimages.hepsiburada.net/s/777/300-443/110000806810414.jpg",
+    "price": 20000,
+    "stockAmount": 35,
+    "description": "Asus'un güçlü ve oyuncular için tasarlanmış laptopu."
+  },
+  {
+    "productId": 19,
+    "productName": "T800 Ultra Akıllı saat",
+    "categoryId": 4,
+    "image": "https://productimages.hepsiburada.net/s/379/375-375/110000397479973.jpg",
+    "price": 50000,
+    "stockAmount": 20,
+    "description": "Rolex'in ikonik ve lüks modeli Submariner."
+  },
+  {
+    "productId": 20,
+    "productName": "xiaoia çocuk saati",
+    "categoryId": 4,
+    "image": "https://productimages.hepsiburada.net/s/777/375-375/110000739080850.jpg",
+    "price": 40000,
+    "stockAmount": 25,
+    "description": "Omega'nın dalış saati modeli Seamaster."
+  },
+  {
+    "productId": 21,
+    "productName": "Apple Watch",
+    "categoryId": 4,
+    "image": "https://productimages.hepsiburada.net/s/777/375-375/110000773544229.jpg",
+    "price": 1500,
+    "stockAmount": 40,
+    "description": "Apple'ın dayanıklı ve şık saati."
+  },
+  {
+    "productId": 22,
+    "productName": "Tempus",
+    "categoryId": 4,
+    "image": "https://images.hepsiburada.net/description-assets/description-prod-30/1cc06a78-9a3a-4f20-90ab-d166bc923727.jpg",
+    "price": 25000,
+    "stockAmount": 15,
+    "description": "Tag Heuer'in şık ve prestijli saati Monaco."
+  },
+  {
+    "productId": 23,
+    "productName": "Skmei saat",
+    "categoryId": 4,
+    "image": "https://productimages.hepsiburada.net/s/105/375-375/110000048892599.jpg",
+    "price": 80000,
+    "stockAmount": 10,
+    "description": "Patek Philippe'in zarif ve lüks saati Calatrava."
+  },
+  {
+    "productId": 24,
+    "productName": "Huangdao",
+    "categoryId": 4,
+    "image": "https://productimages.hepsiburada.net/s/433/300-443/110000465799377.jpg",
+    "price": 90000,
+    "stockAmount": 8,
+    "description": "Audemars Piguet'in ikonik modeli Royal Oak."
+  },
+  {
+    "productId": 25,
+    "productName": "Elma",
+    "categoryId": 5,
+    "image": "https://productimages.hepsiburada.net/s/32/375-375/10363733475378.jpg",
+    "price": 10,
+    "stockAmount": 200,
+    "description": "Yüksek besin değeri ve vitamin kaynağı elma."
+  },
+  {
+    "productId": 26,
+    "productName": "Muz",
+    "categoryId": 5,
+    "image": "https://productimages.hepsiburada.net/s/147/375-375/110000101881217.jpg",
+    "price": 5,
+    "stockAmount": 180,
+    "description": "Sağlıklı ve besleyici bir meyve olan muz."
+  },
+  {
+    "productId": 27,
+    "productName": "Portakal",
+    "categoryId": 5,
+    "image": "https://productimages.hepsiburada.net/s/145/375-375/110000099736705.jpg",
+    "price": 8,
+    "stockAmount": 150,
+    "description": "C vitamini deposu olan taze portakal."
+  },
+  {
+    "productId": 28,
+    "productName": "Üzüm",
+    "categoryId": 5,
+    "image": "https://productimages.hepsiburada.net/s/55/375-375/11218241126450.jpg",
+    "price": 12,
+    "stockAmount": 120,
+    "description": "Taze ve tatlı üzüm."
+  },
+  {
+    "productId": 29,
+    "productName": "Kavun",
+    "categoryId": 5,
+    "image": "https://productimages.hepsiburada.net/s/511/375-375/110000566337837.jpg",
+    "price": 15,
+    "stockAmount": 100,
+    "description": "Serinletici ve tatlı kavun."
+  },
+  {
+    "productId": 30,
+    "productName": "Armut",
+    "categoryId": 5,
+    "image": "https://productimages.hepsiburada.net/s/57/375-375/11305317826610.jpg",
+    "price": 9,
+    "stockAmount": 130,
+    "description": "Yumuşak ve tatlı armut."
+  },
+  {
+    "productId": 31,
+    "productName": "Buzdolabı",
+    "categoryId": 6,
+    "image": "https://productimages.hepsiburada.net/s/777/375-375/110000703259336.jpg",
+    "price": 7500,
+    "stockAmount": 40,
+    "description": "Yüksek verimli ve şık buzdolabı."
+  },
+  {
+    "productId": 32,
+    "productName": "Kettle",
+    "categoryId": 6,
+    "image": "https://productimages.hepsiburada.net/s/509/375-375/110000563586252.jpg",
+    "price": 500,
+    "stockAmount": 80,
+    "description": "Sıcak içecekler hazırlamak için ideal kettle."
+  },
+  {
+    "productId": 33,
+    "productName": "Blender",
+    "categoryId": 6,
+    "image": "https://productimages.hepsiburada.net/s/21/375-375/9941897707570.jpg",
+    "price": 700,
+    "stockAmount": 65,
+    "description": "Kolayca karıştırma ve öğütme işlevi sağlayan blender."
+  },
+  {
+    "productId": 34,
+    "productName": "Mikrodalga Fırın",
+    "categoryId": 6,
+    "image": "https://productimages.hepsiburada.net/s/1/375-375/9516579323954.jpg",
+    "price": 1200,
+    "stockAmount": 50,
+    "description": "Hızlı yemek ısıtma ve pişirme işlevi sunan mikrodalga fırın."
+  },
+  {
+    "productId": 35,
+    "productName": "Elektrikli Süpürge",
+    "categoryId": 6,
+    "image": "https://productimages.hepsiburada.net/s/544/300-443/110000603946404.jpg",
+    "price": 800,
+    "stockAmount": 75,
+    "description": "Ev temizliğinde yüksek performanslı elektrikli süpürge."
+  },
+  {
+    "productId": 36,
+    "productName": "Fırın",
+    "categoryId": 6,
+    "image": "https://productimages.hepsiburada.net/s/414/375/110000444016901.jpg/format:webp",
+    "price": 1500,
+    "stockAmount": 90,
+    "description": "Gelişmiş pişirme özelliklerine sahip fırın."
+  },
+  {
+    "productId": 37,
+    "productName": "Ruj",
+    "categoryId": 7,
+    "image": "https://productimages.hepsiburada.net/s/1/375-375/9523138199602.jpg",
+    "price": 50,
+    "stockAmount": 100,
+    "description": "Kusursuz makyaj için şık ve kalıcı ruj."
+  },
+  {
+    "productId": 38,
+    "productName": "Parfüm",
+    "categoryId": 7,
+    "image": "https://images.hepsiburada.net/assets/Kozmetik/ProductDesc/sgck056023040.jpg",
+    "price": 200,
+    "stockAmount": 150,
+    "description": "Özel günler için lüks parfüm."
+  },
+  {
+    "productId": 39,
+    "productName": "Cilt Bakım Kremi",
+    "categoryId": 7,
+    "image": "https://productimages.hepsiburada.net/s/777/375-375/110000767125120.jpg",
+    "price": 100,
+    "stockAmount": 120,
+    "description": "Cildinize taze ve nemli bir his veren bakım kremi."
+  },
+  {
+    "productId": 40,
+    "productName": "Şampuan",
+    "categoryId": 7,
+    "image": "https://productimages.hepsiburada.net/s/74/300-443/110000016385937.jpg",
+    "price": 70,
+    "stockAmount": 200,
+    "description": "Saç sağlığını koruyacak şampuan."
+  },
+  {
+    "productId": 41,
+    "productName": "Yüz Maskesi",
+    "categoryId": 7,
+    "image": "https://productimages.hepsiburada.net/s/11/375-375/9130707484722.jpg",
+    "price": 25,
+    "stockAmount": 180,
+    "description": "Cilt bakımı için nemlendirici yüz maskesi."
+  },
+  {
+    "productId": 42,
+    "productName": "Vücut Losyonu",
+    "categoryId": 7,
+    "image": "https://productimages.hepsiburada.net/s/557/375-375/110000620092284.jpg",
+    "price": 40,
+    "stockAmount": 250,
+    "description": "Cildinizi yumuşatacak vücut losyonu."
+  }
+]
