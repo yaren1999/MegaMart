@@ -1,0 +1,136 @@
+.navbar {
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 1rem 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 1rem;
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+  }
+  
+  
+  .left {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo {
+    font-size: 1.8rem;
+    font-weight: bold;
+    cursor: pointer;
+   
+  }
+  
+  .link {
+    text-decoration: none;
+    color: rgb(14, 159, 232);
+
+  }
+  
+
+  
+  .searchBox {
+    flex: 1;
+    max-width: 500px;
+    position: relative;
+  }
+  
+  .searchInput {
+    width: 100%;
+    padding: 0.6rem 1rem;
+    border-radius: 20px;
+    border: 1px solid #ccc;
+    outline: none;
+    font-size: 1rem;
+  }
+  
+  .searchResults {
+    position: absolute;
+    top: 105%;
+    left: 0;
+    right: 0;
+    background: #fff;
+    border-radius: 0 0 10px 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    z-index: 10;
+    max-height: 300px;
+    overflow-y: auto;
+  }
+  
+  .searchItem {
+    display: flex;
+    align-items: center;
+    padding: 0.5rem;
+    gap: 0.5rem;
+    border-bottom: 1px solid #f0f0f0;
+  }
+  
+  .searchItem:hover {
+    background-color: #f9f9f9;
+  }
+  
+  
+  .menu {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 1.5rem;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .menuItem {
+    font-size: 1rem;
+  }
+  
+  /* İkonlar */
+  .icons {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    font-size: 1.3rem;
+    cursor: pointer;
+    color: blue;
+  }
+  
+  /* RESPONSIVE */
+  @media (max-width: 768px) {
+    .navbar {
+      flex-direction: column;
+      align-items: flex-start;
+      align-items: center; 
+    }
+
+    .navbar .logo {
+        text-align: center; 
+        margin-top: 10px; 
+      }
+  
+    .searchBox {
+      width: 70%;
+      max-width: none;
+    }
+  
+    .searchInput {
+      padding: 0.6rem 1rem;
+      font-size: 0.95rem;
+    }
+  
+    .menu {
+      flex-wrap: wrap;
+      justify-content: center;
+      width: 100%;
+      margin-top: 0.5rem;
+    }
+  
+    .icons {
+      margin-top: 0.5rem;
+      justify-content: center;
+      width: 100%;
+    }
+  }
+  
