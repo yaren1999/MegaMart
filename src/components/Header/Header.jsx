@@ -5,7 +5,7 @@ import { useRouter } from "next/navigation";
 import Image from "next/image";
 import styles from "./style.module.css";
 import { FaUser } from "react-icons/fa";
-// import products from "../../data/products.json"
+ import products from "../../data/products.json"
 import { useState } from "react";
 
 import { MdAddShoppingCart } from "react-icons/md";
