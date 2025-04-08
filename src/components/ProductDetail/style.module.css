@@ -16,8 +16,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 100vh; /* tüm ekran yüksekliği kadar */
-    background: #f0f0f0; /* isteğe göre arka plan */
+    min-height: 100vh; 
+    background: #f0f0f0; 
   }
   
 
