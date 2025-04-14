@@ -1,0 +1,144 @@
+.container {
+    padding: 40px 20px;
+    background-color: #f9f9f9;
+    text-align: center;
+  }
+  
+  .heading {
+    font-size: 32px;
+    margin-bottom: 30px;
+    font-weight: bold;
+    color: #222;
+    text-align: left;
+  }
+  
+  .highlight {
+    color: #0070f3;
+  }
+
+  .headerDivider {
+    border: none;
+    height: 2px;
+    background-color: #ddd;
+    margin: 0 0 30px 0; 
+    width: 100%;
+  }
+  
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 30px;
+    justify-items: center;
+  }
+  
+  .card {
+    background-color: #fff;
+    border-radius: 16px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    padding: 20px;
+    width: 100%;
+    max-width: 280px;
+    transition: transform 0.3s ease;
+    max-width: 220px;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .image {
+    border-radius: 12px;
+    object-fit: contain;
+    margin-bottom: 15px;
+  }
+  
+  .brand {
+    font-size: 18px;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .priceWrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .price {
+    color: #1e90ff;
+    font-weight: bold;
+    font-size: 18px;
+  }
+  
+  .oldPrice {
+    color: #999;
+    text-decoration: line-through;
+    font-size: 14px;
+  }
+  
+  .divider {
+    border: none;
+    height: 1px;
+    background-color: #eee;
+    margin: 10px 0;
+  }
+  
+  .button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #1e90ff;
+    color: #fff;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 500;
+    transition: background-color 0.3s ease;
+  }
+  
+  .button:hover {
+    background-color: #005ecb;
+  }
+  
+
+@media (max-width: 1024px) {
+    .grid {
+      grid-template-columns: repeat(2, 1fr); 
+      gap: 20px;
+    }
+  
+    .card {
+      max-width: 50%; 
+    }
+  
+    .image {
+      width: 180px; 
+      height: 120px;
+      display: block;
+      margin: 0 auto; 
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .grid {
+      grid-template-columns: repeat(2, 1fr);
+      gap: 10px;
+      justify-content: center;
+    }
+  
+    .card {
+      max-width: 160px;
+      padding: 16px 12px;
+      margin: 0 auto;
+    }
+  
+    .image {
+      width: 100px;
+      height: auto;
+      display: block;
+      margin: 0 auto; 
+    }
+  }
+  
+  
