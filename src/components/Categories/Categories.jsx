@@ -9,6 +9,9 @@ const Categories = () => {
     const router = useRouter();
     return (
         <div className={styles.container}>
+            <h2 className={styles.title}>Shop from Categories</h2>
+            <hr className={styles.divider} />
+            
             {categories.map((c) => {
                 return (
                     

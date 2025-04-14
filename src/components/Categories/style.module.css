@@ -4,7 +4,23 @@
     flex-wrap: wrap;
     justify-content: center;
     gap: 16px;
-    padding: 10px;
+    padding: 30px 80px;
+}
+
+.title {
+  font-size: 24px;
+  font-weight: bold;
+  color: #222;
+  width: 100%;
+  color: rgb(23, 124, 174);
+}
+
+.divider {
+  height: 2px;
+  width: 100%;
+  background-color: #ddd;
+  margin-bottom: 30px;
+  border: none;
 }
 
 .card {
@@ -35,4 +51,37 @@
     margin-top: 8px;
     font-size: 14px;
     text-align: center;
+  }
+
+  @media (max-width: 768px) {
+    .container {
+      padding: 20px;
+      gap: 12px;
+    }
+  
+    .card {
+      width: 100px;
+      height: 100px;
+      margin: 10px;
+    }
+  
+    .title {
+      font-size: 20px;
+      text-align: center;
+    }
+  
+    .divider {
+      margin-bottom: 20px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .card {
+      width: 80px;
+      height: 80px;
+    }
+  
+    .name {
+      font-size: 12px;
+    }
   }
