@@ -1,43 +1,50 @@
 [
     {
         "categoryId": 1,
-        "categoryName": "Telefon"
+        "categoryName": "Telefon",
+        "img": "/categories/phone.png"
         
     },
     {
         "categoryId": 2,
-        "categoryName": "Beyaz eşya"
+        "categoryName": "Beyaz eşya",
+        "img": "/categories/esya.png"
     
         
     },
     {
         "categoryId": 3,
-        "categoryName": "Laptop"
+        "categoryName": "Laptop",
+        "img": "/categories/laptop.png"
         
         
     },
     {
         "categoryId": 4,
-        "categoryName": "Saat"
+        "categoryName": "Saat",
+        "img": "/categories/saat.png"
         
        
     },
     {
         "categoryId": 5,
-        "categoryName": "Meyve"
+        "categoryName": "Meyve",
+        "img": "/categories/meyve.png"
         
         
     },
     {
         "categoryId": 6,
-        "categoryName": "Ev eşyaları"
+        "categoryName": "Ev eşyaları",
+        "img": "/categories/ev.png"
         
     
         
     },
     {
         "categoryId": 7,
-        "categoryName": "Kozmetik"
+        "categoryName": "Kozmetik",
+        "img": "/categories/cosmetic.png"
        
     }
 ]
