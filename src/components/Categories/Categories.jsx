@@ -4,6 +4,7 @@ import categories from "../../data/categories.json"
 import { useRouter } from "next/navigation"
 import Image from "next/image"
 
+
 const Categories = () => {
 
     const router = useRouter();

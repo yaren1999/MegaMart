@@ -1,0 +1,92 @@
+.container {
+    margin: 40px auto;
+    padding: 0 60px;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .title {
+    font-size: 24px;
+    font-weight: bold;
+    color: rgb(23, 124, 174);
+  }
+  
+  .divider {
+    height: 2px;
+    width: 100%;
+    background-color: #ddd;
+    margin: 20px 0;
+    border: none;
+  }
+  
+  .buttons {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 24px;
+    color: rgb(23, 124, 174);
+    transition: transform 0.2s ease;
+  }
+  
+  .button:hover {
+    transform: scale(1.2);
+  }
+  
+  .img {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  .img:hover {
+    transform: scale(1.03);
+  }
+  
+  
+  @media (max-width: 1024px) {
+    .container {
+      padding: 0 30px;
+    }
+  
+    .title {
+      font-size: 20px;
+    }
+  
+    .img {
+      width: 100%;
+      height: auto;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .header {
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 10px;
+    }
+  
+    .buttons {
+      align-self: flex-end;
+    }
+  
+    .divider {
+      margin: 15px 0;
+    }
+  
+    .swiper {
+      padding: 0 10px;
+    }
+  }
+  
