@@ -1,4 +1,4 @@
-/* Footer Genel Ayarları */
+
 .footer {
     background-color: rgb(28, 95, 210);
     color: white;
@@ -20,7 +20,7 @@
     padding: 20px;
   }
   
-  /* Sol Kısım */
+ 
   .megaMart {
     font-size: 24px;
   }
@@ -38,7 +38,7 @@
   
   .contactItem,
   .search {
-    /* margin-bottom: 10px; */
+  
     display: flex;
     align-items: center;
     margin-top: 20px;
@@ -60,7 +60,7 @@
    
   }
   
-  /* Orta Kısım */
+  
   .middleContainer h2 {
     font-size: 20px;
     font-weight: bold;
@@ -83,7 +83,7 @@
     padding: 10px;
   }
   
-  /* Sağ Kısım */
+  
   .rightContainer h2 {
     font-size: 20px;
     font-weight: bold;
@@ -106,7 +106,7 @@
     font-size: 14px;
   }
   
-  /* Responsive Ayarlar */
+  
   @media (max-width: 768px) {
     .container {
       flex-direction: column;

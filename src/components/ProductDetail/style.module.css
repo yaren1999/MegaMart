@@ -10,14 +10,15 @@
     transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
     text-align: center;
     width: 300px;
+    
 }
 
 .wrapper {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh; 
-    background: #f0f0f0; 
+  flex-direction: column;
+  padding: 20px 40px;
+  align-items: center;
+  
   }
   
 
@@ -65,3 +66,133 @@
     color: #444;
     font-style: italic;
 }
+
+
+
+.detailsContainer {
+    margin-top: 30px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    margin-left: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .detailsContainer .detailsTitle {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .detailsContainer .detailsPrice {
+    font-size: 24px;
+    color: #FF6347;
+  }
+  
+  .detailsContainer .detailsOldPrice {
+    font-size: 20px;
+    text-decoration: line-through;
+    color: #888;
+  }
+  
+  /* Renk Seçimi */
+  .colorSelection {
+    margin-top: 20px;
+  }
+  
+  .colorSelection label {
+    font-size: 18px;
+  }
+  
+  .colorOptions {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+  }
+  
+  .colorBox {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  
+  .black { background-color: black; }
+  .white { background-color: white; }
+  .blue { background-color: blue; }
+  .red { background-color: red; }
+  .green { background-color: green; }
+  
+  /* Depolama Seçenekleri */
+  .storageSelection {
+    margin-top: 20px;
+  }
+  
+  .storageSelection label {
+    font-size: 18px;
+  }
+  
+  .storageOptions {
+    display: flex;
+    gap: 15px;
+    margin-top: 10px;
+  }
+  
+  .storageButton {
+    padding: 5px 10px;
+    border: none;
+    background-color: #f0f0f0;
+    cursor: pointer;
+    transition: all 0.3s;
+  }
+  
+  .storageButton:hover {
+    background-color: #ddd;
+  }
+  
+  .selected {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  /* Action Butonları */
+  .actionButtons {
+    margin-top: 30px;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .wishlistButton, .cartButton {
+    padding: 12px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .wishlistButton {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  .cartButton {
+    background-color: black;
+    color: white;
+  }
+
+
+/* Breadcrumb */
+.breadcrumbs {
+    font-size: 14px;
+    color: #999;
+    margin-bottom: 20px;
+  }
+  
+  .breadcrumb {
+    color: #888;
+  }
+  
+  .selectedProduct {
+    color: black;
+    font-weight: bold;
+  }
