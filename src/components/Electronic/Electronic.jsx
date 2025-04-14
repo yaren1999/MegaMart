@@ -6,15 +6,52 @@ import { useRef } from 'react';
 import { GrFormPrevious, GrFormNext } from "react-icons/gr";
 import 'swiper/css';
 import styles from "./style.module.css";
+import Link from 'next/link';
 
 const Electronics = () => {
     const images = [
-        "/electronics/grey.png",
-        "/electronics/yellow.png",
-        "/electronics/pink.png",
-        "/electronics/grey.png",
-        "/electronics/yellow.png",
-        "/electronics/pink.png"
+        {
+            src: "/electronics/grey.png",
+            title: "IPHONE",
+            logo: "/electronics/iphone.png",
+            link: "/productDetail/1"
+        },
+        {
+            src: "/electronics/yellow.png",
+            title: "REAL ME",
+            logo: "/electronics/realmee.png",
+            link: "/productDetail/2"
+        },
+        {
+            src: "/electronics/pink.png",
+            title: "XIAOMI",
+            logo: "/categories/phone.png",
+            link: "/productDetail/3"
+        },
+        {
+            src: "/electronics/grey.png",
+            title: "IPHONE",
+            logo: "/electronics/iphone.png",
+            link: "/productDetail/1"
+        },
+        {
+            src: "/electronics/yellow.png",
+            title: "REAL ME",
+            logo: "/electronics/realmee.png",
+            link: "/productDetail/2"
+        },
+        {
+            src: "/electronics/pink.png",
+            title: "XIAOMI",
+            logo: "/electronics/phone.png",
+            link: "/productDetail/3"
+        },
+        {
+            src: "/electronics/grey.png",
+            title: "IPHONE",
+            logo: "/electronics/iphone.png",
+            link: "/productDetail/1"
+        },
     ];
 
     const swiperRef = useRef(null);
@@ -41,14 +78,23 @@ const Electronics = () => {
                 onSwiper={(swiper) => (swiperRef.current = swiper)}
                 modules={[Navigation]}
             >
-                {images.map((i, index) => (
+                {images.map((image, index) => (
                     <SwiperSlide key={index}>
-                        <Image className={styles.img} src={i} width={200} height={150} alt='img' quality={100} />
+                        <div className={styles.slideContent}>
+                            <div className={styles.imageWrapper}>
+                                <Image className={styles.img} src={image.src} width={400} height={250} alt={image.title} quality={100} />
+                                <div className={styles.overlay}>
+                                    <h3 className={styles.titleText}>{image.title}</h3>
+                                    <Image className={styles.logo} src={image.logo} width={160} height={100} alt={`${image.title} logo`} />
+                                    <Link href={image.link} className={styles.shopButton}>Buy Now</Link>
+                                </div>
+                            </div>
+                        </div>
                     </SwiperSlide>
                 ))}
             </Swiper>
         </div>
     );
-}
+};
 
 export default Electronics;
