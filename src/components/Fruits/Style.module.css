@@ -1,4 +1,4 @@
-/* Genel container ayarları */
+
 .container {
     padding: 30px 20px;
     background-color: #f9f9f9;
@@ -24,66 +24,65 @@
     margin: 20px 0;
     width: 100%;
   }
-  
-  /* Grid düzeni */
+ 
   .grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); /* Kartlar küçük ve esnek olacak */
-    gap: 12px; /* Kartlar arası boşluk */
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); 
+    gap: 12px; 
     justify-items: center;
   }
   
-  /* Card stilini güncelliyoruz */
+  
   .card {
     background-color: #fff;
-    border-radius: 12px; /* Yumuşak köşeler */
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Hafif gölge */
-    padding: 12px; /* İç paddingi düşürdük */
+    border-radius: 12px; 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
+    padding: 12px; 
     width: 100%;
-    max-width: 160px; /* Daha küçük boyut */
+    max-width: 160px; 
     text-align: center;
     transition: transform 0.3s ease;
   }
   
-  /* Hover efekti ile biraz yukarıya kayma */
+  
   .card:hover {
     transform: translateY(-4px);
   }
   
-  /* Resim boyutlandırma */
+  
   .image {
-    border-radius: 8px; /* Resme yuvarlak köşe */
+    border-radius: 8px; 
     object-fit: contain;
     margin-bottom: 10px;
     width: 100%;
     height: auto;
   }
   
-  /* Marka adı */
+  
   .brand {
-    font-size: 14px; /* Daha küçük yazı */
+    font-size: 14px; 
     font-weight: 600;
     color: #333;
     margin-bottom: 6px;
   }
   
-  /* Açıklama kısmı */
+  
   .description {
     font-size: 12px;
     color: #666;
     margin-bottom: 8px;
   }
   
-  /* Fiyat kutusu */
+  
   .priceWrapper {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 6px; /* Daha az boşluk */
+    gap: 6px; 
     margin-bottom: 8px;
   }
   
-  /* Fiyat yazısı */
+  
   .price {
     color: #1e90ff;
     font-weight: bold;
@@ -96,7 +95,7 @@
     font-size: 12px;
   }
   
-  /* Divider */
+  
   .divider {
     border: none;
     height: 1px;
@@ -104,11 +103,11 @@
     margin: 10px 0;
   }
   
-  /* Buton */
+  
   .button {
     display: inline-block;
-    padding: 6px 12px; /* Küçük buton */
-    font-size: 12px; /* Küçük font */
+    padding: 6px 12px; 
+    font-size: 12px; 
     background-color: #1e90ff;
     color: #fff;
     border-radius: 6px;
@@ -117,20 +116,20 @@
     transition: background-color 0.3s ease;
   }
   
-  /* Buton hover efekti */
+ 
   .button:hover {
     background-color: #005ecb;
   }
   
-  /* Tablet responsive düzeni */
+ 
   @media (max-width: 768px) {
     .grid {
-      grid-template-columns: repeat(2, 1fr); /* 2 kart yan yana */
-      gap: 16px; /* Artan boşluk */
+      grid-template-columns: repeat(2, 1fr); 
+      gap: 16px; 
     }
   
     .card {
-      max-width: 150px; /* Kart boyutunu biraz daha küçültüyoruz */
+      max-width: 150px; 
     }
   
     .image {
@@ -151,15 +150,14 @@
     }
   }
   
-  /* Mobil responsive düzeni */
+  
   @media (max-width: 480px) {
     .grid {
-      grid-template-columns: repeat(2, 1fr); /* 2 kart yan yana */
-      gap: 12px;
+      grid-template-columns: repeat(2, 1fr); 
     }
   
     .card {
-      max-width: 130px; /* Kart boyutunu daha da küçültüyoruz */
+      max-width: 130px; 
       padding: 10px;
     }
   
