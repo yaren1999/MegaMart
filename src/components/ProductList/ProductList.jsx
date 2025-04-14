@@ -2,10 +2,10 @@ import Product from "../Product/Product";
 import styles from "./style.module.css"
 import products from "../../data/products.json"
 
-const ProductList = ({ }) => {
+const ProductList = ({ productList}) => {
     return (
         <div className={styles.container}>
-            {products.map((p) => {
+            {productList.map((p) => {
                 return (
                     <Product key={p.productId} product={p} />
                 )

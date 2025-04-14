@@ -43,8 +43,8 @@ const Electronics = () => {
         {
             src: "/electronics/pink.png",
             title: "XIAOMI",
-            logo: "/electronics/phone.png",
-            link: "/productDetail/3"
+            logo: "/categories/phone.png",
+            link: "productDetail//3"
         },
         {
             src: "/electronics/grey.png",
