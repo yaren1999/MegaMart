@@ -5,7 +5,7 @@ const page = () => {
 
     return (
         <div>
-            <ProductList product={products} />
+            <ProductList productList={products} />
         </div>
     )
 }
